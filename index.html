@@ -4,17 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jornal br</title>
+    <title>Nasa news</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="shortcut icon" type="image/jpg" href="espaco.png"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <style>
-        *{
+        * {
             padding: 0px;
-            margin:0px;
+            margin: 0px;
             border: 0;
         }
+
+        body {
+            background-color: rgb(8, 13, 34);
+        }
+
         div {
             height: 300px;
         }
@@ -37,12 +42,22 @@
             margin: 20;
             height: 100%;
             width: 100%;
-            background-color: green;
         }
+
         .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
+            height: 200px;
+            background: #a5a5a5;
+        }
+
+        .header {
+            background: url(nasa.jpg);
+        }
+        h1,h2,p,hr{
+            color:rgb(221, 221, 221)!important;
+        }
+        a{
+            color:rgb(212, 34, 34) !important;
+        }
     </style>
 </head>
 
@@ -50,24 +65,35 @@
     <div class="container-fluid">
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
+                <a class="nav-link active" href="#">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Foguetes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Planetas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link" href="#">Eclipses</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Eventos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Acordos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Curiosidades</a>
+            </li>
+
         </ul>
-        <div class="container-fluid bg-dark text-white">
-            <h1>Jornal br</h1>
-            <p>As melhores notícias brasileiras</p>
+        <div class="container-fluid text-white header">
+            <h1 class="d-inline mt-2">NASA</h1>
+            <h1 class="text-danger d-inline mt-2">NEWS</h1>
+            <p>notícias espaciais na velocidade da luz </p>
         </div>
         <div class="row">
-            <div class="col-sm-4 bg-primary text-white">
+            <div class="col-sm-4 text-white">
                 <div class="noticia">
 
 
@@ -83,24 +109,28 @@
                         <!-- The slideshow/carousel -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                                <img src="PIA25028~orig.jpg" alt="lua" class="d-block"
+                                    style="width:100%;height:100% ; border-radius:4%">
                                 <div class="carousel-caption">
-                                    <h3>Los Angeles</h3>
-                                    <p>We had such a great time in LA!</p>
+                                    <h6 style="margin-top: 225px; background-color: #aaaaaa70;">Sais e substâncias
+                                        orgânicas observadas na superfície de Ganimedes pela sonda Juno da NASA
+                                    </h6>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
+                                <img src="halloween-on-iss-2023-4-exp-37-parmitano-as-superman.webp" alt="hellowen"
+                                    class="d-block" style="width:100%;height:100% ; border-radius:4%">
                                 <div class="carousel-caption">
-                                    <h3>Chicago</h3>
-                                    <p>Thank you, Chicago!</p>
+                                    <h6 style="margin-top: 225px;  background-color: #aaaaaa70;"> Halloween na Estação
+                                        Espacial Internacional</h6>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="ny.jpg" alt="New York" class="d-block" style="width:100%">
+                                <img src="sts-95-2-clinton-introduces-sts-95-crew-at-jsc-apr-14-1998-98e03312.webp"
+                                    alt="nasa" class="d-block" style="width:100%;height:100% ; border-radius:4%">
                                 <div class="carousel-caption">
-                                    <h3>New York</h3>
-                                    <p>We love the Big Apple!</p>
+                                    <h6 style="margin-top: 225px;  background-color: #aaaaaa70;">NASA Kennedy concede
+                                        contrato de apoio operacional e institucional</h6>
                                 </div>
                             </div>
                         </div>
@@ -115,38 +145,118 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4 bg-dark text-white">
-                <div class="noticia">
+            <div class="col-sm-4 text-white">
+                <div class="noticia"
+                    style="background-image: url(david-rankin-css-carsonfuls.webp); background-size: 100%;">
 
                 </div>
-            </div>
-            <div class="col-sm-4 bg-primary text-white">
-                <div class="noticia">
+                <h6 style="margin-top: -50px; background-color: #aaaaaa70; margin-left: 30px;margin-right: 30px">
+                    Voluntários diários do Planeta Menor avistam um asteróide passando perto da Terra </h6>
 
             </div>
+            <div class="col-sm-4 text-white">
+                <div class="noticia" style="background-image: url(1-wise-lucy-dinkinesh.webp); background-size: 100%;">
+
+                </div>
+                <h6 style="margin-top: -50px; background-color: #aaaaaa70; margin-left: 30px;margin-right: 30px">O que
+                    são aplicações de produção espacial?
+                </h6>
+
 
             </div>
-    
-        </div>
-    
-    <br>
-    <div class="container">
-        <div class="row">
-               <div class="m-5 col-sm-4 bg-primary text-white">
-            <h1> BRASIL MELHOR PAIS DO MUNDO</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorem accusantium</p><img src="brasil.jpeg" class="float-start"> minus soluta, expedita est earum ad accusamus! Et libero inventore harum, iure eveniet quia accusantium exercitationem cum magnam aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo illum, temporibus cum numquam perspiciatis magni. Eius optio repudiandae earum consequatur fugiat animi excepturi natus facere, corporis eos minima aliquid reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eos ullam laudantium similique maxime deserunt, dicta animi, sint maiores accusantium iste incidunt sequi quis nesciunt nobis ad quam vero odit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti nesciunt officia quos nobis sunt! Repellat consectetur perspiciatis sapiente earum distinctio, accusantium voluptatum eos, quos dicta eius explicabo repellendus fugiat. Dolor.
-        </div>
-        <div class="col-sm-4 bg-primary text-white">
-          oii
 
         </div>
-        </div>
-     
-        <div>
 
+
+        <div class="container" style="margin-top:100px">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="row" style=" height: max-content;">
+                        <h1 style="font-size: 20px;">Prêmios anteriores da NASA para aplicações de produção no espaço</h1>
+                        <p>ARTIGO</p>
+                        <hr>
+                    </div>
+                    <div class="row" style=" height: max-content;">
+                        <h1 style="font-size: 20px;">NASA Kennedy concede contrato de apoio operacional e institucional
+                        </h1>
+                        <p>COMUNICADO À IMPRENSA</p>
+                        <hr>
+                    </div>
+                    <div class="row" style=" height: max-content;">
+                        <h1 style="font-size: 20px;">Número recorde de ninhos de tartarugas marinhas no espaçoporto da NASA
+                        </h1>
+                        <p>ARTIGO</p>
+                        <hr>
+                    </div>
+                    <div class="row" style=" height: max-content;">
+                        <h1 style="font-size: 20px;">Prêmios anteriores da NASA para aplicações de produção no espaço</h1>
+                        <p>ARTIGO</p>
+                        <hr>
+                    </div>
+                    <div class="row" style=" height: max-content;">
+                        <h1 style="font-size: 20px;">NASA Kennedy concede contrato de apoio operacional e institucional
+                        </h1>
+                        <p>COMUNICADO À IMPRENSA</p>
+                        <hr>
+                    </div>
+                    <div class="row" style=" height: max-content;">
+                        <h1 style="font-size: 20px;">Número recorde de ninhos de tartarugas marinhas no espaçoporto da NASA
+                        </h1>
+                        <p>ARTIGO</p>
+                        <hr>
+                    </div>
+                    <div class="row" style=" height: max-content;">
+                        <h1 style="font-size: 20px;">Prêmios anteriores da NASA para aplicações de produção no espaço</h1>
+                        <p>ARTIGO</p>
+                        <hr>
+                    </div>
+                    <div class="row" style=" height: max-content;">
+                        <h1 style="font-size: 20px;">NASA Kennedy concede contrato de apoio operacional e institucional
+                        </h1>
+                        <p>COMUNICADO À IMPRENSA</p>
+                        <hr>
+                    </div>
+                    <div class="row" style=" height: max-content;">
+                        <h1 style="font-size: 20px;">Número recorde de ninhos de tartarugas marinhas no espaçoporto da NASA
+                        </h1>
+                        <p>ARTIGO</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col" style=" margin-left:30px;">
+                    <div class="row">
+                        <h1>Número recorde de ninhos de tartarugas marinhas no espaçoporto da NASA</h1>
+                        <h2 style="font-size:25px;">Nota do editor: O título e a história foram alterados para refletir
+                            um número recorde de ninhos, e não de eclosões, em Kennedy.</h2>
+                    </div>
+                    <div class="row"
+                        style="background-image: url(2010-4192~large.jpg); background-size: 100%; height:500px; margin-bottom: 50px;">
+                    </div>
+                    <div class="row" style=" height: min-content;">
+                        <p>Os humanos não são as únicas criaturas vivas que usam o Centro Espacial Kennedy da NASA como
+                            plataforma de lançamento para o futuro. Este ano, um número recorde de ninhos de tartarugas
+                            marinhas foi construído nas praias tranquilas do espaçoporto da Flórida.
+
+                            Os biólogos contaram 13.935 ninhos de tartarugas marinhas ao longo da costa de Kennedy
+                            durante a temporada de nidificação de 2023, 639 ninhos a mais do que 2022 e o maior número
+                            encontrado no centro em um único ano desde que a manutenção de registros começou em 1984.
+                            Todos esses ninhos de tartarugas marinhas pertencem a espécies identificadas pelo Serviço de
+                            Parques Nacionais dos EUA como ameaçados ou ameaçados, incluindo o verde (Chelonia mydas) e
+                            a cabeçuda (Caretta caretta) .
+
+                            “Todos os nossos esforços para proteger o habitat de Kennedy estão dando frutos”, disse Jeff
+                            Collins, especialista em proteção ambiental da NASA. “O uso de iluminação favorável às
+                            tartarugas e a duna adequadamente mantida por Kennedy ajudam a manter nossa praia escura e
+                            isso realmente faz a diferença para o sucesso da nidificação das tartarugas marinhas.”
+
+                            A NASA tem parceria para preservar as tartarugas e outras fauna e flora no espaçoporto com o
+                            Merritt Island National Wildlife Refuge e o Canaveral National Seashore, que fazem fronteira
+                            com Kennedy. Trabalhando juntos, os biólogos descobriram que mais de 8.800 ninhos em Kennedy
+                            este ano foram feitos por verdes, com as cabeçudas criando quase 5.100.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 </body>
 
 </html>
